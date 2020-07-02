@@ -3,8 +3,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url("../images/snowy-mountain-peak-418626_dark.png");
-    /* Photo by Tyler Lastovich from Pexels */
+    background-color: #EFEEEE;
     background-size: cover;          
   }
 
@@ -67,6 +66,12 @@ body {
 
   #dropdown {
     width: 300px;
+  }
+
+  .morph {
+    box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #D1CDC7;
+    border-radius: 10px;
+    padding: 10px;
   }
 
 

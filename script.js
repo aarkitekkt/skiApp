@@ -1,3 +1,4 @@
+// list of resorts(currently limited by API)
 var resorts = [
     {
         Resort: "Zermatt",
@@ -85,7 +86,7 @@ function updateforecastCards(response) {
     $("#data5").text(forecast.base.freshsnow_in + " in")
     $("#data6").text(forecast.base.temp_f)
     $("#data7").text(forecast.base.windspd_mph)
-    $("#weatherIcon").attr("src", "assets/images/PNG/" + forecast.base.wx_icon.replace(".gif", ".png"));
+    $("#weatherIcon").attr("src", "assets/icons/" + forecast.base.wx_icon.replace(".gif", ".png"));
     $("#data6").text(forecast.base.temp_f + " °F")
     $("#data7").text(forecast.base.windspd_mph + " mph")
 
